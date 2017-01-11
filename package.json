@@ -1,21 +1,21 @@
 {
-  "name": "resume",
+  "name": "resume1",
   "version": "1.0.0",
-  "description": "shicong's online resume",
-  "main": "index.js",
+  "description": "\"# shicong.github.com\"",
+  "main": "webpack.config.js",
   "scripts": {
-    "webpack": "webpack"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shicongbuct/shicong.github.com.git"
+    "url": "git+https://github.com/shicongbuct/resume.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/shicongbuct/shicong.github.com/issues"
+    "url": "https://github.com/shicongbuct/resume/issues"
   },
-  "homepage": "https://github.com/shicongbuct/shicong.github.com#readme",
+  "homepage": "https://github.com/shicongbuct/resume#readme",
   "dependencies": {
     "webpack": "^1.14.0"
   },
