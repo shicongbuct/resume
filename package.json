@@ -1,0 +1,30 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "shicong's online resume",
+  "main": "index.js",
+  "scripts": {
+    "webpack": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shicongbuct/shicong.github.com.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shicongbuct/shicong.github.com/issues"
+  },
+  "homepage": "https://github.com/shicongbuct/shicong.github.com#readme",
+  "dependencies": {
+    "webpack": "^1.14.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.21.0",
+    "babel-loader": "^6.2.10",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "json-loader": "^0.5.4",
+    "webpack-dev-server": "^1.16.2"
+  }
+}
