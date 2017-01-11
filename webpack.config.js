@@ -1,10 +1,9 @@
 var webpack = require('webpack');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
-
 module.exports = {
   devtool: 'eval-source-map',
-  entry:  __dirname + "/app/main.js",//已多次提及的唯一入口文件
+  entry:  ['bootstrap-loader',__dirname + "/app/main.js"],//已多次提及的唯一入口文件
   output: {
     path: __dirname + "/build",//打包后的文件存放的地方
     filename: "bundle.js"//打包后输出文件的文件名
@@ -19,6 +18,11 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         loader: 'babel',//在webpack的module部分的loaders里进行配置即可
+      },
+      {
+            test: /\.html$/,
+            exclude: /node_modules/,//这个文件除外
+            loader: 'html-loader'
       },
       {
         test: /\.css$/,
